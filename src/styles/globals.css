@@ -1,0 +1,25 @@
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body, #root { min-height: 100%; }
+body { font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, sans-serif; background: #f3f4f6; color: #111827; }
+a { color: inherit; text-decoration: none; }
+
+.app-shell { display: grid; grid-template-columns: 220px 1fr; min-height: 100vh; }
+.sidebar { background: #111827; color: #fff; padding: 16px; display: flex; flex-direction: column; }
+.brand { font-size: 1.2rem; font-weight: 700; letter-spacing: 0.02em; margin-bottom: 1rem; }
+.nav-link { display: block; color: #d1d5db; padding: 10px 12px; margin-bottom: 4px; border-radius: 8px; font-size: 0.9rem; }
+.nav-link:hover { background: #1f2937; color: #fff; }
+.nav-link.active { background: #2563eb; color: #fff; }
+.content-area { display: flex; flex-direction: column; min-height: 100vh; }
+.topbar { display: flex; justify-content: space-between; align-items: center; background: #fff; border-bottom: 1px solid #e5e7eb; padding: 16px 24px; }
+.topbar h1 { font-size: 1.2rem; margin-bottom: 4px; }
+.topbar p { color: #6b7280; margin: 0; }
+.topbar-actions button { border: 1px solid #d1d5db; background: #fff; color: #111827; border-radius: 6px; padding: 6px 10px; margin-left: 8px; cursor: pointer; }
+.page-content { flex: 1; padding: 24px; background: #f9fafb; }
+.footer { background: #fff; border-top: 1px solid #e5e7eb; text-align: center; padding: 12px; font-size: 0.8rem; color: #6b7280; }
+
+@media (max-width: 900px) {
+  .app-shell { grid-template-columns: 1fr; }
+  .sidebar { flex-direction: row; overflow-x: auto; }
+  .nav-link { display: inline-block; margin-right: 8px; margin-bottom: 0; }
+}
+

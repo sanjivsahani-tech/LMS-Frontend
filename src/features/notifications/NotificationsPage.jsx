@@ -1,0 +1,1 @@
+export function NotificationsPage() { return <div><h2>Notifications</h2><p>Notifications page.</p></div>; }

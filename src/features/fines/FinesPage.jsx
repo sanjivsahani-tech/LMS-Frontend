@@ -1,0 +1,1 @@
+export function FinesPage() { return <div><h2>Fines</h2><p>Fines page.</p></div>; }

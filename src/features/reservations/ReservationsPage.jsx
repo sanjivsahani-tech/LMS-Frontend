@@ -1,0 +1,1 @@
+export function ReservationsPage() { return <div><h2>Reservations</h2><p>Reservations page.</p></div>; }

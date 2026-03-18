@@ -1,0 +1,1 @@
+export function CirculationPage() { return <div><h2>Circulation</h2><p>Circulation page.</p></div>; }
