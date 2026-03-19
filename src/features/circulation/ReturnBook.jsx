@@ -1,9 +1,14 @@
+import Table from "../../components/table/Table";
+
 function  ReturnBook () {
  
-    return (
+    return (<>
       <div>
-         hi i am ReturnBook
+         <div>Issued Books</div>
+         <p id="pp566">Select an active transaction to process a return.</p>
+         <Table/>
       </div>
+      </>
     )
   }
 

@@ -4,6 +4,7 @@ import IssueBook from "./IssueBook";
 import ReturnBook from "./ReturnBook";
 import Transaction from "./Transaction";
 
+
 export function CirculationPage() {
   const [activeTab, setActiveTab] = useState("issue");
   return (
@@ -66,6 +67,7 @@ export function CirculationPage() {
           {activeTab === "return" && <ReturnBook />}
           {activeTab === "transactions" && <Transaction />}
         </div>
+       
       </div>
     </>
   );
