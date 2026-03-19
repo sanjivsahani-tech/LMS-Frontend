@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import "./circulation.css";
 import IssueBook from "./IssueBook";
-import ReturnBook from "./ReturnBook";
-import Transaction from "./Transaction";
+import ReturnBook from "./return book/ReturnBook";
+import Transaction from "./transcation/Transaction";
 
 
 export function CirculationPage() {

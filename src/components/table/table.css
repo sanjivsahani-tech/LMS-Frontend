@@ -7,7 +7,7 @@
   margin: auto;
 }
 
-h2 {
+.table-title {
   margin-bottom: 5px;
 }
 
@@ -37,12 +37,12 @@ h2 {
   border-bottom: 1px solid #eee;
 }
 
-/* Status badges */
 .status {
   padding: 5px 10px;
   border-radius: 20px;
   font-size: 12px;
   font-weight: 500;
+  display: inline-block;
 }
 
 .issued {
@@ -52,10 +52,9 @@ h2 {
 
 .overdue {
   background-color: #ff4d4f;
-  color: white;
+  color: #fff;
 }
 
-/* Button */
 .return-btn {
   background-color: #000;
   color: white;
@@ -67,4 +66,10 @@ h2 {
 
 .return-btn:hover {
   opacity: 0.8;
+}
+
+.empty-message {
+  text-align: center;
+  padding: 20px;
+  color: gray;
 }

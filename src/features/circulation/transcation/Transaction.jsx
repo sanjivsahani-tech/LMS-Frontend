@@ -1,4 +1,6 @@
-import Table from "../../components/table/Table";
+import CustomTable from "../../../components/table/Table";
+import { TransactionColumns, TransactionData } from "./TrascationData";
+ 
 
 function  Transaction () {
  
@@ -7,7 +9,10 @@ function  Transaction () {
       <div>
          <div>Transaction History</div>
          <p id="pp566">Search transaction IDs, members, or titles across the current demo data.</p>
-         <Table/>
+          <CustomTable
+          data={TransactionData}
+          columns={TransactionColumns}
+          />
       </div>
       </>
     )
