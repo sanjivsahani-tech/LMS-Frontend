@@ -37,10 +37,10 @@
         
       
 #cirp1 {
-    font-size: 22px;
+    font-size: 16px;
     font-weight: 200;
     margin-top: 10px;
-    margin-left: 45px;
+    margin-left: 5px;
     margin-bottom: 60px;
 }
 
@@ -81,7 +81,7 @@
   padding: 24px;
   border-radius: 12px;
   border: 1px solid #eee;
-  max-width: 800px;
+  width: 1000px;
 }
 
 .header h3 { margin: 0 0 8px 0; color: #333; }
